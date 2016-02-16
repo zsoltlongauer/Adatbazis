@@ -52,7 +52,8 @@ public class ManageEntity<T> {
 
     }
 
-    public boolean insert(List<T> ts){ // TODO Listak
+    public boolean insert(List<T> ts)
+    {
         Session session = getSession();
         for (T t:ts)
         {
